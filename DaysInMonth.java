@@ -9,7 +9,9 @@ public class DaysInMonth {
    private String leap; 
    
    /**
-   
+      Constructor args for month and year
+      @perma monthNum The number that corresponds to the moth 
+      @perma yearNum The date of the year the month is in
    */ 
    
    public DaysInMonth( int monthNum, int yearNum) { 
@@ -18,7 +20,9 @@ public class DaysInMonth {
    } 
    
    /**
-   
+      The getNumOfDys determines what month the int represents in order to return days
+      Leap years are also factored in for the number of days in Feburary
+      @return days The number of the days the month has
    */ 
    
    public int getNumOfDays() {
